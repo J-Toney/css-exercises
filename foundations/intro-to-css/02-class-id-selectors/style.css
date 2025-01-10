@@ -13,3 +13,9 @@
 .number3 {
     font-size: 24px;
 }
+
+#number4 {
+    background-color: rgb(111, 247, 111);
+    font-size: 24px;
+    font-weight: bold;
+}
