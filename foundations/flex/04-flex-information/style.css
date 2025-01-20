@@ -3,8 +3,8 @@ body {
 }
 
 img {
-  width: 200px;
-  height: auto;
+  width: 100px;
+  height: 100px;
 }
 
 .title {
@@ -33,14 +33,10 @@ img {
   justify-content: center;
 }
 
-.outer-container {
-  display: flex;
-  justify-content: center;
-}
+.inner-container {
 
-.text {
-  display: flex;
   max-width: 200px;
-  flex-wrap: wrap;
-  text-align: justify;
+
+ 
+  text-align: center;
 }
