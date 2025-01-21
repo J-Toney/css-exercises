@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -28,6 +30,9 @@ input {
 ul {
   list-style: none;
   display: flex;
+  margin: 0px;
+  padding: 15px;
+
 }
 
 a {
@@ -44,6 +49,10 @@ a {
 .footer {
   display: flex;
   justify-content: space-between;
+  background-color: rgb(172, 172, 172);
+  align-items: flex-end;
+  
+
 }
 
 .left-links {
@@ -52,4 +61,13 @@ a {
 
 .right-links {
   gap: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  width: 100%;
 }
